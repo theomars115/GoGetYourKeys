@@ -28,7 +28,7 @@ while True:
     body = "Seriously, there's nothing to see here"
     msg.attach(MIMEText(body, 'plain'))
     
-    time.sleep(60 * 30)
+    time.sleep(60)
 
     attachment = open(directory, "rb")
     p = MIMEBase('application', 'octet-stream')
